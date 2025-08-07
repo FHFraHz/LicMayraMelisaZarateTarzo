@@ -1,0 +1,32 @@
+.ff-serif { font-family: serif; }
+
+.ff-sans { font-family: sans-serif; }
+
+.melissa-foto {
+    border-radius: 50%;
+    width: 256px;
+    height: auto;
+    object-fit: cover;
+    object-position: top;
+}
+
+h1.encabezado-ppal {
+    font-size: 48pt;
+    font-weight: 600;
+}
+h2.encabezado-ppal {
+    font-size: 18pt;
+    line-height: 1.5;
+}
+.texto-melissa.violeta { color: rgb(120,77,123); }
+.texto-melissa.oscuro { color: rgb(110,99,105); }
+.fondo-melissa { background: rgb(250,227,235);  }
+
+.btn-melissa {
+    padding: 1rem 2rem;
+    text-decoration: inherit;
+    border-radius: 1rem;
+    background: rgb(167,140,183);
+    color: rgb(255,253,255);
+    font-weight: 500;
+}
