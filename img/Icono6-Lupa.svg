@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="73.906723"
+   height="73.579514"
+   viewBox="0 0 73.906723 73.579514"
+   sodipodi:docname="Icono6-Lupa.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="6.1121495"
+     inkscape:cx="36.811927"
+     inkscape:cy="31.33104"
+     inkscape:window-width="1280"
+     inkscape:window-height="971"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g1"
+     transform="translate(-38.084108,-36.775225)">
+    <circle
+       style="fill:none;stroke:#ad88b5;stroke-width:4;stroke-linecap:round;stroke-dasharray:none"
+       id="path1"
+       cx="66.09787"
+       cy="64.788986"
+       r="26.013762" />
+    <path
+       style="fill:none;stroke:#ad88b5;stroke-width:3;stroke-linecap:round"
+       d="M 107.49083,105.85474 84.328026,82.69194"
+       id="path2" />
+    <path
+       style="fill:none;stroke:#ad88b5;stroke-width:9;stroke-linecap:round;stroke-dasharray:none"
+       d="M 107.49083,105.85474 92.000809,90.364723"
+       id="path2-6"
+       sodipodi:nodetypes="cc" />
+  </g>
+</svg>
