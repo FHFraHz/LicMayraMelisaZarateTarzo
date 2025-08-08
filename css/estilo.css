@@ -95,7 +95,12 @@ img.iconos-botones-inicio { width: 64px; height: 64px; }
 
 img.emoji-titulo { width: 1.25ch; height: auto; }
 
-img.subseccion-imagen { transform: scale(0.5); }
+img.subseccion-imagen {
+    height: 96px;
+    width: auto;
+    margin-bottom: 1em;
+    filter: opacity(90%);
+ }
 
 main#app {
     min-height: calc(100vh - var(--fixed-header-height) - var(--footer-height));
