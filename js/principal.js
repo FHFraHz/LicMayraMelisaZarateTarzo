@@ -3,5 +3,7 @@
 window.addEventListener('load', inicializar);
 
 async function inicializar() {
-    initializeRouter();
+    setTimeout(() => {
+        initializeRouter();
+    }, 250);
 }
