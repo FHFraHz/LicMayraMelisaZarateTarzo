@@ -1,3 +1,9 @@
+:root {
+    --anim-entrada-translate: 10px;
+    --anim-entrada-translate-negativo: -10px;
+    --delay-ms: 250ms;
+}
+
 .ff-serif { font-family: serif; }
 
 .ff-sans { font-family: sans-serif; }
@@ -42,6 +48,47 @@ h2.encabezado-ppal {
 }
 .hover-grow:hover {
     scale: 105%;
+}
+.anim-entrada-fund {
+    opacity: 0%;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+.anim-entrada-fund.entrada-fund-arriba { animation-name: entrada-fund-arriba; }
+.anim-entrada-fund.entrada-fund-abajo { animation-name: entrada-fund-abajo; }
+.anim-entrada-fund.entrada-fund-izq { animation-name: entrada-fund-izq; }
+.anim-entrada-fund.entrada-fund-der { animation-name: entrada-fund-der; }
+
+.anim-delay-1 { animation-delay: var(--delay-ms);}
+.anim-delay-2 { animation-delay: calc(2 * var(--delay-ms));}
+.anim-delay-3 { animation-delay: calc(3 * var(--delay-ms));}
+.anim-delay-4 { animation-delay: calc(4 * var(--delay-ms));}
+.anim-delay-5 { animation-delay: calc(5 * var(--delay-ms));}
+.anim-delay-6 { animation-delay: calc(6 * var(--delay-ms));}
+.anim-delay-7 { animation-delay: calc(7 * var(--delay-ms));}
+.anim-delay-8 { animation-delay: calc(8 * var(--delay-ms));}
+.anim-delay-9 { animation-delay: calc(9 * var(--delay-ms));}
+
+@keyframes entrada-fund {
+    0% { opacity: 1;}
+    100% { opacity: 100%; }
+}
+@keyframes entrada-fund-arriba {
+    0% { opacity: 1%; transform: translateY(var(--anim-entrada-translate-negativo)); }
+    100% { opacity: 100%; transform: translateY(0); }
+}
+@keyframes entrada-fund-abajo {
+    0% { opacity: 1%; transform: translateY(var(--anim-entrada-translate)); }
+    100% { opacity: 100%; transform: translateY(0); }
+}
+@keyframes entrada-fund-izq {
+    0% { opacity: 1%; transform: translateX(var(--anim-entrada-translate-negativo)); }
+    100% { opacity: 100%; transform:translateX(0); }
+}
+@keyframes entrada-fund-der {
+    0% { opacity: 1%; transform: translateX(var(--anim-entrada-translate)); }
+    100% { opacity: 100%; transform:translateX(0); }
 }
 
 .titulos-botones-inicio {
