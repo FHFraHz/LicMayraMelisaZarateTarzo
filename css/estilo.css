@@ -2,6 +2,8 @@
     --anim-entrada-translate: 10px;
     --anim-entrada-translate-negativo: -10px;
     --delay-ms: 250ms;
+    --fixed-header-height: 0px;
+    --footer-height: 72px;
 }
 
 .ff-serif { font-family: serif; }
@@ -99,6 +101,16 @@ h2.encabezado-ppal {
 img.iconos-botones-inicio {
     width: 64px;
     height: 64px;
+}
+main#app {
+    min-height: calc(100vh - var(--fixed-header-height) - var(--footer-height));
+}
+footer.footer {
+    height: var(--footer-height);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen and (max-width: 780px) {
