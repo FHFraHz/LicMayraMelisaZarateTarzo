@@ -21,6 +21,7 @@ h2.encabezado-ppal {
 .texto-melissa.violeta { color: rgb(120,77,123); }
 .texto-melissa.oscuro { color: rgb(110,99,105); }
 .fondo-melissa { background: rgb(250,227,235);  }
+.fondo-melissa.claro { background: rgb(254,240,240);  }
 
 .btn-melissa {
     padding: 1rem 2rem;
@@ -29,4 +30,36 @@ h2.encabezado-ppal {
     background: rgb(167,140,183);
     color: rgb(255,253,255);
     font-weight: 500;
+    cursor: pointer;
+}
+.botones-inicio, .botones-inicio * {
+    color: inherit;
+    text-decoration: inherit;
+    cursor: pointer;
+}
+.hover-grow {
+    transition: scale ease-out 0.2s;
+}
+.hover-grow:hover {
+    scale: 105%;
+}
+
+.titulos-botones-inicio {
+    font-size: 18pt;
+    font-weight: 600;
+    color: inherit;
+}
+img.iconos-botones-inicio {
+    width: 64px;
+    height: 64px;
+}
+
+@media screen and (max-width: 780px) {
+    body {
+        padding: 0 1ch;
+    }
+    img.iconos-botones-inicio {
+        width: 48px;
+        height: 48px;
+    }
 }
