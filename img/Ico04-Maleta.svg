@@ -4,10 +4,10 @@
 <svg
    version="1.1"
    id="svg1"
-   width="75.488533"
-   height="66.584839"
-   viewBox="0 0 75.488533 66.584839"
-   sodipodi:docname="Icono4-Maleta.svg"
+   width="76.238533"
+   height="67.334839"
+   viewBox="0 0 76.238533 67.334839"
+   sodipodi:docname="Ico04-Maleta.svg"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -24,9 +24,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="6.0837209"
-     inkscape:cx="25.477829"
-     inkscape:cy="43.312309"
+     inkscape:zoom="17.207361"
+     inkscape:cx="38.268506"
+     inkscape:cy="43.673169"
      inkscape:window-width="1280"
      inkscape:window-height="971"
      inkscape:window-x="-8"
@@ -37,9 +37,9 @@
      inkscape:groupmode="layer"
      inkscape:label="Image"
      id="g1"
-     transform="translate(-43.20948,-42.415138)">
+     transform="translate(-42.83448,-42.040138)">
     <rect
-       style="fill:none;stroke:#ad88b5;stroke-width:3;stroke-linecap:round;stroke-opacity:1"
+       style="fill:none;stroke:#ad88b5;stroke-width:3.75;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
        id="rect1"
        width="72.488533"
        height="48.325661"
@@ -48,28 +48,30 @@
        ry="1.9491711"
        rx="2.4655964" />
     <rect
-       style="fill:none;stroke:#ad88b5;stroke-width:3;stroke-linecap:round;stroke-opacity:1"
+       style="fill:none;stroke:#ad88b5;stroke-width:3.75;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
        id="rect2"
        width="29.724007"
        height="15.259174"
-       x="66.43425"
+       x="66.091743"
        y="43.915138"
        rx="9.0405226"
        ry="7.0447373" />
     <path
-       style="fill:none;stroke:#ad88b5;stroke-width:3;stroke-linecap:round;stroke-opacity:1"
-       d="M 44.70948,91.55581 H 72.981651"
-       id="path2" />
+       style="fill:none;stroke:#ad88b5;stroke-width:3.75;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 44.70948,91.55581 28.436547,-10e-7"
+       id="path2"
+       sodipodi:nodetypes="cc" />
     <path
-       style="fill:none;stroke:#ad88b5;stroke-width:3;stroke-linecap:round;stroke-opacity:1"
-       d="m 88.70948,91.55581 h 28.27217"
-       id="path2-5" />
+       style="fill:none;stroke:#ad88b5;stroke-width:3.75;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 88.761467,91.555809 28.220183,10e-7"
+       id="path2-5"
+       sodipodi:nodetypes="cc" />
     <rect
-       style="fill:none;stroke:#ad88b5;stroke-width:3;stroke-linecap:round;stroke-opacity:1"
+       style="fill:none;stroke:#ad88b5;stroke-width:3.75;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
        id="rect3"
        width="15.615442"
        height="11.177368"
-       x="72.981651"
+       x="73.146027"
        y="85.967125"
        rx="0"
        ry="0" />

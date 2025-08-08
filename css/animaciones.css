@@ -1,0 +1,84 @@
+:root {
+    --anim-entrada-translate: 07px;
+    --anim-entrada-translate-negativo: -07px;
+    --delay-ms: 250ms;
+}
+
+.anim-entrada-fund {
+    opacity: 0%;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+.anim-entrada-fund.entrada-fund-arriba { animation-name: entrada-fund-arriba; }
+.anim-entrada-fund.entrada-fund-abajo { animation-name: entrada-fund-abajo; }
+.anim-entrada-fund.entrada-fund-izq { animation-name: entrada-fund-izq; }
+.anim-entrada-fund.entrada-fund-der { animation-name: entrada-fund-der; }
+
+.anim-salida-fund {
+    /* opacity: inherit; */
+    animation-duration: 0.3s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+.anim-salida-fund.salida-fund-arriba { animation-name: salida-fund-arriba; }
+.anim-salida-fund.salida-fund-abajo { animation-name: salida-fund-abajo; }
+.anim-salida-fund.salida-fund-izq { animation-name: salida-fund-izq; }
+.anim-salida-fund.salida-fund-der { animation-name: salida-fund-der; }
+
+.anim-delay-1 { animation-delay: var(--delay-ms);}
+.anim-delay-2 { animation-delay: calc(2 * var(--delay-ms));}
+.anim-delay-3 { animation-delay: calc(3 * var(--delay-ms));}
+.anim-delay-4 { animation-delay: calc(4 * var(--delay-ms));}
+.anim-delay-5 { animation-delay: calc(5 * var(--delay-ms));}
+.anim-delay-6 { animation-delay: calc(6 * var(--delay-ms));}
+.anim-delay-7 { animation-delay: calc(7 * var(--delay-ms));}
+.anim-delay-8 { animation-delay: calc(8 * var(--delay-ms));}
+.anim-delay-9 { animation-delay: calc(9 * var(--delay-ms));}
+
+@keyframes entrada-fund {
+    0% { opacity: 1;}
+    100% { opacity: 100%; }
+}
+@keyframes entrada-fund-arriba {
+    0% { opacity: 1%; transform: translateY(var(--anim-entrada-translate-negativo)); }
+    100% { opacity: 100%; transform: translateY(0); }
+}
+@keyframes entrada-fund-abajo {
+    0% { opacity: 1%; transform: translateY(var(--anim-entrada-translate)); }
+    100% { opacity: 100%; transform: translateY(0); }
+}
+@keyframes entrada-fund-izq {
+    0% { opacity: 1%; transform: translateX(var(--anim-entrada-translate-negativo)); }
+    100% { opacity: 100%; transform:translateX(0); }
+}
+@keyframes entrada-fund-der {
+    0% { opacity: 1%; transform: translateX(var(--anim-entrada-translate)); }
+    100% { opacity: 100%; transform:translateX(0); }
+}
+
+@keyframes salida-fund {
+    0% { opacity: 1; }
+    100% { opacity: 100%; }
+}
+@keyframes salida-fund-arriba {
+    0% { opacity: 99%; transform: translateY(0); }
+    99% { opacity: 0%; transform: translateY(var(--anim-entrada-translate-negativo)); }
+    100% { transform: translate(0,0); opacity: 0%; }
+}
+@keyframes salida-fund-abajo {
+    0% { opacity: 99%;  transform: translateY(0); }
+    99% { opacity: 0%; transform: translateY(var(--anim-entrada-translate)); }
+    100% { transform: translate(0,0); opacity: 0%; }
+}
+@keyframes salida-fund-izq {
+    0% { opacity: 99%; transform: translateX(0); }
+    99% { opacity: 0%; transform: translateX(var(--anim-entrada-translate-negativo)); }
+    100% { transform: translate(0,0); opacity: 0%; }
+}
+@keyframes salida-fund-der {
+    0% { opacity: 99%;  transform: translateX(0); }
+    99% { opacity: 0%; transform: translateX(var(--anim-entrada-translate)); }
+    100% { transform: translate(0,0); opacity: 0%; }
+}

@@ -61,7 +61,13 @@ function addLinkEventListeners() {
             let target = event.target.closest('a.router-link');
             if(target) {
                 event.preventDefault();
-                navigateTo(target.href);
+                /* COMPLEJIZAR MEJOR DESPUÉS */
+                document.getElementById('app').classList.add('anim-salida-fund', 'salida-fund-arriba');
+                setTimeout(() => {
+                    document.getElementById('app').innerHTML = '';
+                    document.getElementById('app').classList.remove('anim-salida-fund', 'salida-fund-arriba');
+                    navigateTo(target.href);
+                }, 300);
             }
         });
     } catch(e) {

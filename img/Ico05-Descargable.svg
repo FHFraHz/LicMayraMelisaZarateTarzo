@@ -4,10 +4,10 @@
 <svg
    version="1.1"
    id="svg1"
-   width="51.755348"
-   height="68.770653"
-   viewBox="0 0 51.755348 68.770653"
-   sodipodi:docname="Icono5-Descargable.svg"
+   width="52.505348"
+   height="69.520653"
+   viewBox="0 0 52.505348 69.520653"
+   sodipodi:docname="Ico05-Descargable.svg"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -25,8 +25,8 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="6.1121495"
-     inkscape:cx="30.75841"
-     inkscape:cy="31.985474"
+     inkscape:cx="31.167431"
+     inkscape:cy="32.312691"
      inkscape:window-width="1280"
      inkscape:window-height="971"
      inkscape:window-x="-8"
@@ -37,27 +37,27 @@
      inkscape:groupmode="layer"
      inkscape:label="Image"
      id="g1"
-     transform="translate(-50.527523,-43.983181)">
+     transform="translate(-50.152523,-43.608181)">
     <path
        id="rect1"
-       style="fill:none;stroke:#ad88b5;stroke-width:3;stroke-linecap:round"
+       style="fill:none;stroke:#ad88b5;stroke-width:3.75;stroke-linecap:round;stroke-dasharray:none"
        d="m 65.770642,45.483181 h 21.269106 c 7.613688,0 13.743122,6.129431 13.743122,13.743119 v 42.28441 c 0,7.61368 -6.129434,9.74312 -13.743122,9.74312 H 65.770642 c -7.613688,0 -13.743119,-2.12944 -13.743119,-9.74312 V 59.2263 c 0,-7.613688 6.129431,-13.743119 13.743119,-13.743119 z"
        sodipodi:nodetypes="sssssssss" />
     <path
-       style="fill:none;stroke:#ad88b5;stroke-width:3;stroke-linecap:round"
+       style="fill:none;stroke:#ad88b5;stroke-width:3.75;stroke-linecap:round;stroke-dasharray:none"
        d="M 52.567173,104.66217 H 100.24322"
        id="path1" />
     <path
-       style="fill:none;stroke:#ad88b5;stroke-width:3;stroke-linecap:round"
-       d="M 76.405197,65.607034 V 92.111621"
+       style="fill:none;stroke:#ad88b5;stroke-width:3.75;stroke-linecap:round;stroke-dasharray:none"
+       d="M 76.540517,65.607034 V 92.111621"
        id="path2" />
     <path
-       style="fill:none;stroke:#ad88b5;stroke-width:3;stroke-linecap:round"
-       d="m 63.807339,83.603976 12.434249,8.507645"
+       style="fill:none;stroke:#ad88b5;stroke-width:3.75;stroke-linecap:round;stroke-dasharray:none"
+       d="m 63.942659,83.603976 12.434249,8.507645"
        id="path3" />
     <path
-       style="fill:none;stroke:#ad88b5;stroke-width:3;stroke-linecap:round"
-       d="M 88.732415,83.603976 76.298166,92.111621"
+       style="fill:none;stroke:#ad88b5;stroke-width:3.75;stroke-linecap:round;stroke-dasharray:none"
+       d="M 88.867735,83.603976 76.433486,92.111621"
        id="path3-8" />
   </g>
 </svg>
