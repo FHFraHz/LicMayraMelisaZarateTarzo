@@ -3,7 +3,9 @@
 const routes = {
     '/': {
         'file': 'pages/inicio.html',
-        'scripts': []
+        'scripts': [
+            {'src': 'js/pages/inicio.js', 'type': 'text/javascript'}
+        ],
     },
     '/educacion-especial': {
         'file': 'pages/edu-esp.html',
@@ -12,10 +14,10 @@ const routes = {
         ],
         // 'styles': ['css/pages/about.css']
     },
-    '/eval-trata': {
-        'file': 'pages/eval-trata.html',
+    '/evaluacion-y-tratamiento': {
+        'file': 'pages/eval-tratamiento.html',
         'scripts': [
-            {'src': 'js/pages/eval-trata.js', 'type': 'text/javascript'}
+            {'src': 'js/pages/eval-tratamiento.js', 'type': 'text/javascript'}
         ],
         // 'styles': ['css/pages/about.css']
     },
@@ -26,21 +28,21 @@ const routes = {
         ],
         // 'styles': ['css/pages/about.css']
     },
-    '/orienta-vocacion': {
+    '/orientacion-vocacional': {
         'file': 'pages/orienta-vocacion.html',
         'scripts': [
             {'src': 'js/pages/orienta-vocacion.js', 'type': 'text/javascript'}
         ],
         // 'styles': ['css/pages/about.css']
     },
-    '/ppdgg-laboral': {
+    '/psicopedagogia-laboral': {
         'file': 'pages/ppdgg-laboral.html',
         'scripts': [
             {'src': 'js/pages/ppdgg-laboral.js', 'type': 'text/javascript'}
         ],
         // 'styles': ['css/pages/about.css']
     },
-    '/tuto-ppdgg': {
+    '/tutorias-psicopedagogicas': {
         'file': 'pages/tuto-ppdgg.html',
         'scripts': [
             {'src': 'js/pages/tuto-ppdgg.js', 'type': 'text/javascript'}
