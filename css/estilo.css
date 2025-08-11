@@ -103,7 +103,7 @@ img.subseccion-imagen {
  }
 
 main#app {
-    min-height: calc(100vh - var(--fixed-header-height) - var(--footer-height));
+    min-height: 480px; /* calc(100vh - var(--fixed-header-height) - var(--footer-height)); */
 }
 footer.footer {
     height: var(--footer-height);
