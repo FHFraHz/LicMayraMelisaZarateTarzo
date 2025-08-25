@@ -10,6 +10,7 @@
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
 }
+.anim-entrada-fund.entrada-fund-centro { animation-name: entrada-fund-centro; }
 .anim-entrada-fund.entrada-fund-arriba { animation-name: entrada-fund-arriba; }
 .anim-entrada-fund.entrada-fund-abajo { animation-name: entrada-fund-abajo; }
 .anim-entrada-fund.entrada-fund-izq { animation-name: entrada-fund-izq; }
@@ -22,6 +23,7 @@
     animation-fill-mode: forwards;
 }
 
+.anim-salida-fund.salida-fund-centro { animation-name: salida-fund; }
 .anim-salida-fund.salida-fund-arriba { animation-name: salida-fund-arriba; }
 .anim-salida-fund.salida-fund-abajo { animation-name: salida-fund-abajo; }
 .anim-salida-fund.salida-fund-izq { animation-name: salida-fund-izq; }
@@ -37,8 +39,8 @@
 .anim-delay-8 { animation-delay: calc(8 * var(--delay-ms));}
 .anim-delay-9 { animation-delay: calc(9 * var(--delay-ms));}
 
-@keyframes entrada-fund {
-    0% { opacity: 1;}
+@keyframes entrada-fund-centro {
+    0% { opacity: 1%; }
     100% { opacity: 100%; }
 }
 @keyframes entrada-fund-arriba {
@@ -58,7 +60,7 @@
     100% { opacity: 100%; transform:translateX(0); }
 }
 
-@keyframes salida-fund {
+@keyframes salida-fund-centro {
     0% { opacity: 1; }
     100% { opacity: 100%; }
 }

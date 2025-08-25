@@ -23,12 +23,18 @@ async function insertInnerAppNav() {
 
     if(navInserted) {
         try {
-            document.getElementById('inner-app-nav-start').removeEventListener('click', removeInnerAppNav);
+            document.getElementById('inner-app-nav-start').removeEventListener('click', reloadHome);
         } catch(e) { console.log(e); }
         try {
-            document.getElementById('inner-app-nav-start').addEventListener('click', removeInnerAppNav);
+            document.getElementById('inner-app-nav-start').addEventListener('click', reloadHome);
         } catch(e) { console.log(e); }
     }
+}
+
+function reloadHome() {
+    removeInnerAppNav();
+    window.location.replace('/');
+    window.location.reload;
 }
 
 function removeInnerAppNav() {
