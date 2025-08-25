@@ -5,5 +5,5 @@ window.addEventListener('load', inicializar);
 async function inicializar() {
     setTimeout(() => {
         initializeRouter();
-    }, 250);
+    }, 300);
 }

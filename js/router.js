@@ -7,42 +7,42 @@ const routes = {
             {'src': 'js/pages/inicio.js', 'type': 'text/javascript'}
         ],
     },
-    '/educacion-especial': {
+    '#educacion-especial': {
         'file': 'pages/edu-esp.html',
         'scripts': [
             {'src': 'js/pages/edu-esp.js', 'type': 'text/javascript'}
         ],
         // 'styles': ['css/pages/about.css']
     },
-    '/evaluacion-y-tratamiento': {
+    '#evaluacion-y-tratamiento': {
         'file': 'pages/eval-tratamiento.html',
         'scripts': [
             {'src': 'js/pages/eval-tratamiento.js', 'type': 'text/javascript'}
         ],
         // 'styles': ['css/pages/about.css']
     },
-    '/material-descarga': {
+    '#material-descargable': {
         'file': 'pages/material-descarga.html',
         'scripts': [
             {'src': 'js/pages/material-descarga.js', 'type': 'text/javascript'}
         ],
         // 'styles': ['css/pages/about.css']
     },
-    '/orientacion-vocacional': {
+    '#orientacion-vocacional': {
         'file': 'pages/orienta-vocacion.html',
         'scripts': [
             {'src': 'js/pages/orienta-vocacion.js', 'type': 'text/javascript'}
         ],
         // 'styles': ['css/pages/about.css']
     },
-    '/psicopedagogia-laboral': {
+    '#psicopedagogia-laboral': {
         'file': 'pages/ppdgg-laboral.html',
         'scripts': [
             {'src': 'js/pages/ppdgg-laboral.js', 'type': 'text/javascript'}
         ],
         // 'styles': ['css/pages/about.css']
     },
-    '/tutorias-psicopedagogicas': {
+    '#tutorias-psicopedagogicas': {
         'file': 'pages/tuto-ppdgg.html',
         'scripts': [
             {'src': 'js/pages/tuto-ppdgg.js', 'type': 'text/javascript'}
@@ -61,7 +61,7 @@ function addLinkEventListeners() {
     try {
         document.body.addEventListener('click', (event) => {
             let target = event.target.closest('a.router-link');
-            if(target) {
+            if((target) && (window.location.hash)) {
                 event.preventDefault();
                 /* COMPLEJIZAR MEJOR DESPUÉS */
                 document.getElementById('app').classList.add('anim-salida-fund', 'salida-fund-arriba');
@@ -83,7 +83,8 @@ function navigateTo(url) {
 }
 
 async function router() {
-    let route = routes[window.location.pathname] || 'pages/404.html';
+    let route = routes[window.location.hash] || routes[window.location.pathname] || 'pages/404.html';
+    // console.log(route);
     try {
         await renderPage(route);
         // addLinkEventListeners();

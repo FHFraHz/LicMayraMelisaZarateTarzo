@@ -1,0 +1,19 @@
+.inner-app-nav-link {
+    color: var(--rgb-texto-melissa-violeta);
+    opacity: 90%;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--rgb-fondo-melissa-claro);
+    text-decoration: none;
+    transition: all ease-out 0.1s;
+    font-weight: 400;
+    font-size: 10pt;
+}
+.inner-app-nav-link:hover {
+    background-color: var(--rgb-color-melissa-blanco);
+    opacity: 100%;
+    font-weight: 500;
+}
