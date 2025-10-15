@@ -1,7 +1,7 @@
 .inner-app-nav-link {
     color: var(--rgb-texto-melissa-violeta);
     opacity: 90%;
-    padding: 1em;
+    padding: 0.5em;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -16,4 +16,9 @@
     background-color: var(--rgb-color-melissa-blanco);
     opacity: 100%;
     font-weight: 500;
+}
+@media screen and (min-width: 1920px) {
+    .inner-app-nav-link {
+        padding: 1em;
+    }
 }
