@@ -200,6 +200,10 @@ footer.footer {
         flex-direction: column-reverse;
         gap: 0.375em;
     }
+    .encabezado-ppal {
+        transform: scale(0.75);
+        margin: 0 !important;
+    }
     h1.encabezado-ppal {
         text-align: center;
     }
