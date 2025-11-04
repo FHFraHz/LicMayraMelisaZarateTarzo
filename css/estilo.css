@@ -41,12 +41,13 @@
 
 body, html {
     font-family: var(--ff-sans);
-    height: 100%;
 }
 
 body {
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    position: relative;
 }
 
 .btn-spa-volver {
@@ -68,10 +69,11 @@ header {
 
 .melissa-foto {
     border-radius: 50%;
-    width: 180px;
+    width: 150px;
     height: auto;
     object-fit: cover;
     object-position: top;
+    margin-bottom: 1em;
 }
 
 h1.encabezado-ppal {
@@ -104,6 +106,15 @@ h2.encabezado-ppal {
     font-weight: 500;
     cursor: pointer;
 }
+.grid-melissa {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.botones-inicio {
+    margin: 8px;
+    padding: 12px;
+}
 .botones-inicio, .botones-inicio * {
     color: inherit;
     text-decoration: inherit;
@@ -121,18 +132,18 @@ h2.encabezado-ppal {
     font-weight: 600;
     color: inherit;
 }
-img.iconos-botones-inicio { width: 64px; height: 64px; }
+img.iconos-botones-inicio { width: 56px; height: 56px; }
 
 img.emoji-titulo { width: 1.25ch; height: auto; }
 
 img.subseccion-imagen {
-    height: 96px;
+    height: 64px;
     width: auto;
     margin-bottom: 1em;
     filter: opacity(90%);
  }
 
-main#app {
+main#content {
     /* min-height: 360px; /* calc(100vh - var(--fixed-header-height) - var(--footer-height)); */
     /* height: 100%; */
     flex-grow: 1;
@@ -146,7 +157,8 @@ footer.footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: static;
+    /* justify-self: flex-end !important; */
+    justify-self: flex-end;
     bottom: 0;
 }
 
@@ -187,9 +199,9 @@ footer.footer {
     h2.encabezado-ppal {
         font-size: 18pt;
     }
-    .melissa-foto {
+    /* .melissa-foto {
         width: 200px;
-    }
+    } */
 }
 
 @media screen and (max-width: 780px) {
@@ -210,5 +222,18 @@ footer.footer {
     img.iconos-botones-inicio {
         width: 48px;
         height: 48px;
+    }
+    .melissa-foto {
+        margin-bottom: 0;
+        width: 128px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .grid-melissa {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 0 !important;
     }
 }
